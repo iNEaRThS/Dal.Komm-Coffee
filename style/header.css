@@ -1,0 +1,117 @@
+@import url(common.css);
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap');
+
+html{font-size:100%;}
+
+body{-webkit-text-size-adjust:100%;}
+
+header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #FF592E;
+}
+header .logo{
+  width: 100%;
+  text-align: center;
+}
+header .hamburger_btn{
+  padding-right: 1%;
+}
+header .hamburger_btn .hamburger_btn_icon img{
+  height: 40px;
+}
+
+.mo_view{
+  display: flex;
+  flex-flow: column;
+  position:fixed;
+  right:0;
+  top:0;
+  width:60%;
+  height:100%;
+  z-index:2000;
+  box-sizing: border-box;
+  border-left: 2px solid #333;
+  background: #FBF4E4;
+}
+.mo_view .mo_view_logo{
+  width: 100%;
+  border-bottom: 2px solid #FF592E;
+  height: 6%;
+  margin-top: 4%;
+  padding-bottom: 4%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.mo_view .mo_view_logo .mo_view_close_btn{
+  width: 20%;
+  height: 15%;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+}
+.mo_view .mo_view_logo .mo_view_close_btn i{
+  color: #333;
+  font-size: 50px;
+  float: left;
+}
+.mo_view .mo_view_logo img{
+  height: 35px;
+  margin-right: 30%;
+  margin-top: 2%;
+}
+.mo_view .mo_list{
+  width: 100%;
+}
+.mo_view .mo_list ul li{
+  width: 100%;
+  text-align: center;
+  color: #FF592E;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 10% 0;
+  transition: all 0.5s;
+}
+.mo_view .mo_list ul li:hover{
+  background: #FF592E;
+  color: #fff;
+}
+.line{
+  width: 100%;
+  height: 2px;
+  background: #333;
+}
+.app_intro{
+  width: 90%;
+  max-width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1px solid #FF592E;
+  padding: 5% 0%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10%;
+  color: #333;
+  transition: all 0.5s;
+}
+.app_intro:hover{
+  background: #FF592E;
+  color: #333;
+}
+
+.mo_view .charac{
+  width: 100%;
+  bottom: 0;
+  padding-top: 70%;
+}
+.mo_view .charac img{
+  height: 36%;
+}
+
+/* mobile check width 414px* note20 ultra 기준 */

@@ -1,0 +1,290 @@
+@import url(common.css);
+@import url(header_footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+/* font-family: 'Permanent Marker', cursive; */
+/* font-family: 'Caveat', cursive; */
+
+section{
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+section .menus{
+  width: 100%;
+  max-width: 100%;
+}
+section .menus .swiper-wrapper .swiper-slide .season{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+section>.menus>.swiper-wrapper>.swiper-slide>.season>img{
+  width: 100%;
+  max-width: 100%;
+  transform: scale(0.6);
+}
+section .menus .swiper-wrapper .swiper-slide .season .menu_box{
+  width: 50%;
+  margin-bottom: 3%;
+}
+section .menus .swiper-wrapper .swiper-slide .season .menu_box img{
+  width: 80%;
+  max-width: 80%;
+}
+section .menus .swiper-wrapper .swiper-slide .season .menu_box span{
+  width: 80%;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5%;
+  text-align: center;
+}
+section .menus .swiper-wrapper .swiper-slide .season .menu_box span img{
+  width: 20%;
+  transform: scale(0.8);
+}
+
+section .menus .swiper-wrapper .swiper-slide .signature{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+section>.menus>.swiper-wrapper>.swiper-slide>.signature>img{
+  width: 100%;
+  max-width: 100%;
+  transform: scale(0.8);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+section .menus .swiper-wrapper .swiper-slide .signature .menu_box{
+  width: 50%;
+  margin-bottom: 3%;
+}
+section .menus .swiper-wrapper .swiper-slide .signature .menu_box img{
+  width: 80%;
+  max-width: 80%;
+}
+section .menus .swiper-wrapper .swiper-slide .signature .menu_box span{
+  width: 80%;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5%;
+  text-align: center;
+}
+section .menus .swiper-wrapper .swiper-slide .signature .menu_box span img{
+  width: 20%;
+  transform: scale(0.8);
+}
+
+section .menus .swiper-wrapper .swiper-slide .coffee{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+section>.menus>.swiper-wrapper>.swiper-slide>.coffee>img{
+  width: 100%;
+  max-width: 100%;
+  transform: scale(0.55);
+}
+section .menus .swiper-wrapper .swiper-slide .coffee .menu_box{
+  width: 50%;
+  margin-bottom: 3%;
+}
+section .menus .swiper-wrapper .swiper-slide .coffee .menu_box img{
+  width: 80%;
+  max-width: 80%;
+}
+section .menus .swiper-wrapper .swiper-slide .coffee .menu_box span{
+  width: 80%;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5%;
+  text-align: center;
+}
+section .menus .swiper-wrapper .swiper-slide .coffee .menu_box span img{
+  width: 20%;
+  transform: scale(0.8);
+}
+
+section .menus .swiper-wrapper .swiper-slide .milk{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+section>.menus>.swiper-wrapper>.swiper-slide>.milk>img{
+  width: 100%;
+  max-width: 100%;
+  transform: scale(0.9);
+  padding: 5% 0;
+}
+section .menus .swiper-wrapper .swiper-slide .milk .menu_box{
+  width: 50%;
+  margin-bottom: 3%;
+}
+section .menus .swiper-wrapper .swiper-slide .milk .menu_box img{
+  width: 80%;
+  max-width: 80%;
+}
+section .menus .swiper-wrapper .swiper-slide .milk .menu_box span{
+  width: 80%;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5%;
+  text-align: center;
+}
+section .menus .swiper-wrapper .swiper-slide .milk .menu_box span img{
+  width: 20%;
+  transform: scale(0.8);
+}
+
+section .menus .swiper-wrapper .swiper-slide .ice_blended{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+section>.menus>.swiper-wrapper>.swiper-slide>.ice_blended>img{
+  width: 100%;
+  max-width: 100%;
+  transform: scale(0.9);
+  padding: 5% 0;
+}
+section .menus .swiper-wrapper .swiper-slide .ice_blended .menu_box{
+  width: 50%;
+  margin-bottom: 3%;
+}
+section .menus .swiper-wrapper .swiper-slide .ice_blended .menu_box img{
+  width: 80%;
+  max-width: 80%;
+}
+section .menus .swiper-wrapper .swiper-slide .ice_blended .menu_box span{
+  width: 80%;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5%;
+  text-align: center;
+}
+section .menus .swiper-wrapper .swiper-slide .ice_blended .menu_box span img{
+  width: 20%;
+  transform: scale(0.8);
+}
+
+section .menus .swiper-wrapper .swiper-slide .tea{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+section .menus .swiper-wrapper .swiper-slide .tea .none_Box{
+  width: 100%;
+}
+section>.menus>.swiper-wrapper>.swiper-slide>.tea>img{
+  height: 20%;
+  max-height: 20%;
+  transform: scale(0.8);
+}
+section .menus .swiper-wrapper .swiper-slide .tea .menu_box{
+  width: 50%;
+  margin-bottom: 3%;
+}
+section .menus .swiper-wrapper .swiper-slide .tea .menu_box img{
+  width: 80%;
+  max-width: 80%;
+}
+section .menus .swiper-wrapper .swiper-slide .tea .menu_box span{
+  width: 80%;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5%;
+  text-align: center;
+}
+section .menus .swiper-wrapper .swiper-slide .tea .menu_box span img{
+  width: 20%;
+  transform: scale(0.8);
+}
+
+section .menus .swiper-wrapper .swiper-slide .juice{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+section>.menus>.swiper-wrapper>.swiper-slide>.juice>img{
+  width: 100%;
+  max-width: 100%;
+  transform: scale(0.7);
+}
+section .menus .swiper-wrapper .swiper-slide .juice .menu_box{
+  width: 50%;
+  margin-bottom: 3%;
+}
+section .menus .swiper-wrapper .swiper-slide .juice .menu_box img{
+  width: 80%;
+  max-width: 80%;
+}
+section .menus .swiper-wrapper .swiper-slide .juice .menu_box span{
+  width: 80%;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5%;
+  text-align: center;
+}
+section .menus .swiper-wrapper .swiper-slide .juice .menu_box span img{
+  width: 20%;
+  transform: scale(0.8);
+}
+
+section .menus .swiper-wrapper .swiper-slide .bakery{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+section>.menus>.swiper-wrapper>.swiper-slide>.bakery>img{
+  width: 100%;
+  max-width: 100%;
+  transform: scale(0.8);
+}
+section .menus .swiper-wrapper .swiper-slide .bakery .menu_box{
+  width: 50%;
+  margin-bottom: 3%;
+}
+section .menus .swiper-wrapper .swiper-slide .bakery .menu_box img{
+  width: 80%;
+  max-width: 80%;
+}
+section .menus .swiper-wrapper .swiper-slide .bakery .menu_box span{
+  width: 80%;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5%;
+  text-align: center;
+}
+section .menus .swiper-wrapper .swiper-slide .bakery .menu_box span img{
+  width: 20%;
+  transform: scale(0.8);
+}
+
+

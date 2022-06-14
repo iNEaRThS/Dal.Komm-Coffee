@@ -1,0 +1,386 @@
+@import url(common.css);
+@import url(header_footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+/* font-family: 'Permanent Marker', cursive; */
+/* font-family: 'Caveat', cursive; */
+
+section{
+  width: 100%;
+  max-width: 100%;
+  background: #F5FDF4;
+  text-align: center;
+}
+section #brand_intro{
+  width: 90%;
+  max-width: 100%;
+  margin: 3% auto;
+  border: 2px solid #ff592e;
+  box-sizing: border-box;
+}
+section #brand_intro h3{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 26px;
+}
+section #brand_intro .character{
+  width: 80%;
+  max-width: 80%;
+  margin-left: 5%;
+}
+section #brand_intro .character img{
+  width: 120%;
+  max-width: 120%;
+}
+section .download_btn{
+  width: 40%;
+  border: 2px solid #ff592e;
+  padding: 3% 0;
+  font-size: 17px;
+  margin: 1% auto;
+}
+section .gray_text{
+  font-size: 10px;
+  color: #999;
+  margin-top: 2%;
+}
+section .intro_text{
+  width: 90%;
+  margin: 2% auto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+section .brand_logo_type{
+  width: 90%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+section .brand_logo_type .brand_type_top{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+section .brand_logo_type .brand_type_top img{
+  width: 46%;
+  border: 1px solid #333;
+}
+
+section .brand_logo_type h3{
+  font-size: 24px;
+  margin-top: 5%;
+}
+section .brand_logo_type h4{
+  font-size: 12px;
+  margin-top: 2%;
+  font-weight: normal;
+  margin-bottom: 5%;
+}
+
+section .brand_logo_type .brand_type_bottom{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+section .brand_logo_type .brand_type_bottom img{
+  width: 46%;
+  border: 1px solid #333;
+}
+
+section .brand_character{
+  width: 100%;
+  max-width: 100%;
+  margin: 5% auto;
+}
+section .brand_character h3{
+  font-size: 24px;
+}
+
+section .brand_character .dalk{
+  width: 90%;
+  max-width: 90%;
+  margin: 5% auto;
+  background: #Fef4e4;
+}
+section .brand_character .dalk img{
+  width: 60%;
+  max-width: 60%;
+  margin-top: 5%;
+}
+section .brand_character .dalk p{
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+section .brand_character .dalk ul{
+  width: 90%;
+  margin: 0 auto;
+  display: none;
+}
+section .brand_character .dalk ul li{
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 14px;
+}
+section .brand_character .dalk ul li:nth-child(1){
+  margin-top: 14px;
+}
+section .brand_character .dalk ul li:nth-child(7){
+  padding-bottom: 14px;
+}
+
+section .brand_character .foxm{
+  width: 90%;
+  max-width: 90%;
+  margin: 5% auto;
+  background: #Fef4e4;
+}
+section .brand_character .foxm img{
+  width: 60%;
+  max-width: 60%;
+  margin-top: 5%;
+}
+section .brand_character .foxm p{
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+section .brand_character .foxm ul{
+  width: 90%;
+  margin: 0 auto;
+  display: none;
+}
+section .brand_character .foxm ul li{
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 14px;
+}
+section .brand_character .foxm ul li:nth-child(1){
+  margin-top: 14px;
+}
+section .brand_character .foxm ul li:nth-child(7){
+  padding-bottom: 14px;
+}
+
+section .contents{
+  width: 100%;
+  max-width: 100%;
+  margin: 5% auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+section .contents h3{
+  font-size: 24px;
+}
+section .contents .coffee{
+  width: 90%;
+  max-width: 90%;
+  height: 50%;
+  margin: 5% auto;
+  background: #fae5c4;
+  position: relative;
+}
+section .contents .coffee img{
+  width: 100%;
+}
+section .contents .coffee>p{
+  font-family: 'Caveat', cursive;
+  font-size: 36px;
+  padding: 10% 0 5% 0;
+}
+section .contents .coffee .hover_box{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+section .contents .coffee .on{
+  opacity: 1;
+}
+section .contents .special{
+  width: 90%;
+  max-width: 90%;
+  height: 50%;
+  background: #fae5c4;
+  position: relative;
+}
+section .contents .special img{
+  width: 50%;
+  padding: 5% 0 0 0;
+}
+section .contents .special>p{
+  font-family: 'Caveat', cursive;
+  font-size: 36px;
+  padding: 5% 0 5% 0;
+}
+section .contents .special .hover_box{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+section .contents .special .on{
+  opacity: 1;
+}
+
+section .contents .bakery{
+  width: 90%;
+  max-width: 90%;
+  height: 50%;
+  background: #fae5c4;
+  margin-top: 5%;
+  position: relative;
+}
+section .contents .bakery img{
+  width: 50%;
+  padding: 5% 0 0 0;
+}
+section .contents .bakery>p{
+  font-family: 'Caveat', cursive;
+  font-size: 36px;
+  padding: 5% 0 5% 0;
+}
+section .contents .bakery .hover_box{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+section .contents .bakery .on{
+  opacity: 1;
+}
+
+section .contents .goods{
+  width: 90%;
+  max-width: 90%;
+  height: 50%;
+  background: #fae5c4;
+  margin-top: 5%;
+  position: relative;
+}
+section .contents .goods img{
+  width: 50%;
+  padding: 5% 0 0 0;
+}
+section .contents .goods>p{
+  font-family: 'Caveat', cursive;
+  font-size: 36px;
+  padding: 5% 0 5% 0;
+}
+section .contents .goods .hover_box{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+section .contents .goods .on{
+  opacity: 1;
+}
+
+section .contents .music{
+  width: 90%;
+  max-width: 90%;
+  height: 50%;
+  background: #fae5c4;
+  margin-top: 5%;
+  position: relative;
+}
+section .contents .music img{
+  width: 50%;
+  padding: 5% 0 0 0;
+}
+section .contents .music>p{
+  font-family: 'Caveat', cursive;
+  font-size: 36px;
+  padding: 0% 0 5% 0;
+}
+section .contents .music .hover_box{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+section .contents .music .on{
+  opacity: 1;
+}
+
+section .contents .con_character{
+  width: 90%;
+  max-width: 90%;
+  height: 50%;
+  background: #fae5c4;
+  margin-top: 5%;
+  position: relative;
+}
+section .contents .con_character img{
+  width: 50%;
+  padding: 5% 0 0 0;
+}
+section .contents .con_character>p{
+  font-family: 'Caveat', cursive;
+  font-size: 36px;
+  padding: 0% 0 5% 0;
+}
+section .contents .con_character .hover_box{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+section .contents .con_character .on{
+  opacity: 1;
+}

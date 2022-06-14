@@ -1,0 +1,90 @@
+@import url(common.css);
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap');
+
+html{font-size:100%;}
+
+body{-webkit-text-size-adjust:100%;}
+
+#wrap{
+  width: 100%;
+  max-width: 100%;
+}
+
+footer{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  background: #FBF4E4;
+}
+footer .logo{
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  margin: 5% auto;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #FF592E;
+}
+footer .logo img{
+  width: 40%;
+  max-width: 40%;
+}
+footer .drop_down{
+  width: 100%;
+  max-width: 100%;
+  margin: -10px auto;
+}
+footer>.drop_down>ul>li{
+  width: 80%;
+  padding: 3% 3%;
+  text-align: center;
+  margin: 15px auto;
+}
+footer>.drop_down>ul>li>a{
+  font-size: 20px;
+  color: #FF592E;
+  font-weight: bold;
+}
+footer>.drop_down>ul>li>a>i{
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+}
+footer>.drop_down>ul>li>ul>li{
+  width: 100%;
+  padding: 2% 2%;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  display: none;
+}
+footer>.drop_down>ul>li>ul>li:nth-child(1){
+  margin-top: 5%;
+}
+footer>.drop_down>ul>li:nth-child(1)>ul>li:nth-child(1){
+  font-weight: bold;
+}
+footer>.drop_down>ul>li:nth-child(3)>ul>li:nth-child(1){
+  margin-top: 5%;
+  font-weight: bold;
+}
+footer .info_box{
+  width: 80%;
+  max-width: 80%;
+  margin: 15px auto;
+  color: #FF592E;
+  font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+}
+
+
+/* mobile check width 414px* note20 ultra 기준 */
+
+
+
+
+
+
