@@ -126,12 +126,13 @@ header .hamburger_btn .hamburger_btn_icon img{
   color: #333;
 }
 .mo_view .charac{
+  position: absolute;
   width: 100%;
-  bottom: 0;
-  padding-top: 70%;
+  bottom: 5%;
 }
 .mo_view .charac img{
-  height: 36%;
+  width: 100%;
+  max-width: 100%;
 }
 
 footer{
