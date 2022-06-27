@@ -60,7 +60,6 @@ header .hamburger_btn .hamburger_btn_icon img{
   width: 20%;
   height: 15%;
   display: flex;
-  align-items: left;
   justify-content: center;
 }
 .mo_view .mo_view_logo .mo_view_close_btn i{
