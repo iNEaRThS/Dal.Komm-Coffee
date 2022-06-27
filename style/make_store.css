@@ -163,7 +163,7 @@ section #food .support{
   border: 1px solid #333;
   color: #fff;
   padding: 40px;
-  margin-top: 5%;
+  margin-bottom: 5%;
 }
 section #food .support h3{
   font-size: 16px;
@@ -180,6 +180,7 @@ section #food .webandgroup{
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 5%;
 }
 section #food .web_pos{
   width: 120px;
@@ -188,6 +189,7 @@ section #food .web_pos{
   border: 1px solid #333;
   color: #fff;
   padding: 40px;
+  margin-bottom: 5%;
 }
 section #food .web_pos h3{
   font-size: 16px;
@@ -205,7 +207,7 @@ section #food .group_ware{
   border: 1px solid #333;
   color: #fff;
   padding: 40px;
-  margin-left: 5%;
+  margin-bottom: 5%;
 }
 section #food .group_ware h3{
   font-size: 16px;
@@ -220,6 +222,7 @@ section #food i{
   width: 100%;
   color: #fff;
   font-size: 60px;
+  margin-bottom: 5%;
 }
 section #food .result{
   width: 120px;

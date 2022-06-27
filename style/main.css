@@ -259,7 +259,7 @@ section #new .middle_text{
   color: #FF592E; 
 }
 section #new .title_top_right{
-  width: 44%;
+  width: 40%;
   text-align: center;
   margin-right: 3%;
 }
@@ -269,7 +269,7 @@ section #new .title_top_right h4{
   font-family: 'Shadows Into Light', cursive;
 }
 section #new .title_bottom_left{
-  width: 44%;
+  width: 40%;
   text-align: center;
 }
 section #new .title_bottom_left h4{
